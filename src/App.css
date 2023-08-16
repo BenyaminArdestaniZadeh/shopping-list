@@ -1,0 +1,119 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.shoppingList-container {
+  min-width: 40rem;
+  min-height: 85vh;
+  padding: 2rem 1.5rem;
+  background-color: #222;
+  border-radius: 5px;
+}
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+input {
+  min-width: 15rem;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+.list-container {
+  min-width: 40rem;
+  min-height: 23rem;
+  margin-top: 2rem;
+  border-radius: 5px;
+  text-align: center;
+  padding: 1rem;
+  border: 2px solid whitesmoke;
+}
+.list {
+  min-width: 90%;
+  height: 3.3rem;
+  padding: 0 1rem;
+  border-radius: 5px;
+  background-color: #fff;
+  text-align: left;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #222;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list p {
+  font-size: 1.1rem;
+  margin: 0;
+  max-width: 20ch;
+  min-width: 6ch;
+  text-align: left;
+}
+.item-wrapper {
+  display: flex;
+  width: 16rem;
+  justify-content: space-between;
+}
+.delete-button-style {
+  color: whitesmoke;
+  padding: 0.5rem 0.7rem;
+  font-size: 1rem;
+  background-color: rgb(213, 64, 64);
+  border-radius: 5px !important;
+  transition: all linear 200ms;
+}
+.delete-button-style:hover {
+  background-color: rgb(133, 1, 1);
+}
+.counter-container {
+  display: flex;
+  height: inherit;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+.counter-container button {
+  width: 3rem;
+  padding: 0;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #222;
+  transition: 100ms all linear;
+}
+.counter-container button:nth-of-type(1) {
+  background-color: rgb(255, 58, 58);
+}
+.counter-container button:nth-of-type(1):hover {
+  background-color: rgba(255, 83, 83, 0.777);
+}
+.counter-container button:nth-of-type(2) {
+  background-color: rgb(67, 252, 67);
+}
+.counter-container button:nth-of-type(2):hover {
+  background-color: rgba(93, 251, 93, 0.829);
+}
+.total-container{
+  min-width: 40rem;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 0.5rem;
+  padding: 0 1rem;
+  border: 2px solid whitesmoke;
+}
+.total-container h5 {
+  padding: 12px 23px;
+  border: 2px solid whitesmoke;
+  border-radius: 5px;
+}
