@@ -14,7 +14,6 @@ export default function DeleteButton({
   index,
 }: DeleteButtonType) {
   const handleDeletButton = () => {
-    //inm dobare bkhon
     const filteredList = listItems.filter((_, i) => i !== index);
     setListItems(filteredList);
   };

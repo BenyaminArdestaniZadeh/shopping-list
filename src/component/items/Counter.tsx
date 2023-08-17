@@ -32,19 +32,3 @@ export default function Counter({ getUniqueItem }: Props) {
     </>
   );
 }
-
-// const decreaseHandler = () => {
-//   if (count > 1) {
-//     const minusOne = count - 1;
-//     // const priceFactor = parseFloat(priceValue) / minusOne;
-//     // setcount(minusOne);
-//     // setPriceValue(priceFactor.toString());
-//   }
-// };
-
-// const increaseHandler = () => {
-//   const plusOne = count + 1;
-//   const priceFactor = Number(priceValue) * plusOne;
-//   setcount(plusOne);
-//   setPriceValue(priceFactor.toString());
-// };

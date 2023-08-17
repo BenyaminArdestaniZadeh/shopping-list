@@ -37,7 +37,7 @@ export default function Form({
         name: itemValue,
         price: Number(priceValue),
         initialPrice: Number(priceValue),
-        count: 1
+        count: 1,
       };
       setListItems([...listItems, itemToList]);
     }
